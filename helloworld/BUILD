@@ -1,5 +1,12 @@
 package(
-    default_visibility = ["//visibility:public"],
+    default_visibility = ["//helloworld:internal"],
+)
+
+package_group(
+    name = "internal",
+    packages = [
+        "//helloworld/...",
+    ],
 )
 
 cc_test(
