@@ -226,5 +226,6 @@ apple_support_dependencies()
 git_repository(
     name = "mediapipe",
     remote = "https://github.com/google/mediapipe.git",
-    commit = "c6fea4c9d9f3bdf081c10387d2b42ed854199d06",
+    branch = "master",
+ #   commit = "c6fea4c9d9f3bdf081c10387d2b42ed854199d06", #v0.63
 )
